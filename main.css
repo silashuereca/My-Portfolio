@@ -1,3 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+  position: relative;
+  background-color: #1e272e;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100vh;
+}
+.container .my-name {
+  width: 100%;
+  color: white;
+}
+.container .my-name h1 {
+  margin-left: 10%;
+  margin-top: 45vh;
+  font-size: 3em;
+}
+.container .my-name p {
+  margin-top: -20px;
+  margin-left: 10%;
+  font-size: 20px;
+}
+.container .control-panel-container {
+  width: 100%;
+  padding-top: 10%;
+}
+.container .control-panel-container .control-panel {
+  width: 80%;
+  height: 90%;
+  margin: auto;
+  background-color: #3B3B98;
+}
+.container .control-panel-container .control-panel h2 {
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.container .control-panel-container .control-panel .flip-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 5px;
+  width: 100%;
+  margin: auto;
+}
+.container .control-panel-container .control-panel .flip-card {
+  background-color: transparent;
+  width: 98%;
+  height: 9em;
+  margin: auto;
+  perspective: 1000px;
+}
+.container .control-panel-container .control-panel .flip-card .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: white;
+  z-index: 2;
+}
+.flip-card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+.flip-card-back .flip-card-back-content {
+  width: 100%;
+  height: 100%;
+}
+.flip-card-back .flip-card-back-content .content-title {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+}
+.flip-card-back .flip-card-back-content .button-container {
+  margin-top: 3em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.flip-card-back .flip-card-back-content .button-container .icon-container {
+  width: 100%;
+}
+.flip-card-back .flip-card-back-content .button-container .icon-container .fa {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+}
+.flip-card-back .flip-card-back-content .button-container .site-container {
+  width: 100%;
+}
+.flip-card-back .flip-card-back-content .button-container .site-container button {
+  background-color: #1B9CFC;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline-style: none;
+}
+.flip-card-back .flip-card-back-content .button-container .site-container button:hover {
+  background-color: #25CCF7;
+}
+
+.spacer {
+  width: 98%;
+  padding-top: 20px;
+  margin: auto;
+  border-bottom: 1px solid white;
+}
+
+.about-me-container {
+  width: 98%;
+  margin: auto;
+}
+.about-me-container p {
+  color: white;
+}
+
+.skills {
+  margin-top: 45px;
+}
+
+.skills-container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+.skills-container h6 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid white;
+  background-color: white;
+  transition: border-radius 1s ease;
+}
+.skills-container h6:hover {
+  border-radius: 20px;
+}
+
+@media only screen and (max-device-width: 812px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .skills-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

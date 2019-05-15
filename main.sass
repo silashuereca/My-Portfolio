@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat')
+
+$font-family: 'Montserrat', sans-serif
+$panelColor: #3B3B98
+
+body
+  position: relative
+  background-color: #1e272e
+  font-family: $font-family
+  padding: 0
+  margin: 0
+
+.container
+  display: grid
+  grid-template-columns: 1fr 1fr
+  width: 100%
+  height: 100vh
+  .my-name
+    width: 100%
+    color: white
+    h1
+      margin-left: 10%
+      margin-top: 45vh
+      font-size: 3em
+    p
+      margin-top: -20px
+      margin-left: 10%
+      font-size: 20px
+  .control-panel-container
+    width: 100%
+    padding-top: 10%
+    .control-panel
+      width: 80%
+      height: 90%
+      margin: auto
+      background-color: $panelColor
+      h2
+        color: white
+        padding-top: 10px
+        padding-left: 10px
+      .flip-card-container 
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-row-gap: 5px
+        width: 100%
+        margin: auto
+      .flip-card
+        background-color: transparent
+        width: 98%
+        height: 9em
+        margin: auto
+        perspective: 1000px
+        .flip-card-inner
+          position: relative
+          width: 100%
+          height: 100%
+          text-align: center
+          transition: transform 0.6s
+          transform-style: preserve-3d
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2)
+
+
+.flip-card:hover .flip-card-inner
+  transform: rotateY(180deg)
+
+.flip-card-front, .flip-card-back
+  position: absolute
+  width: 100%
+  height: 100%
+  backface-visibility: hidden
+
+.flip-card-front
+  background-color: #bbb
+  color: white
+  z-index: 2
+  img 
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+.flip-card-back 
+  background-color: #2980b9
+  color: white
+  transform: rotateY(180deg)
+  z-index: 1
+  .flip-card-back-content
+    width: 100%
+    height: 100%
+    .content-title
+      width: 95%
+      margin: auto
+      text-align: center
+    .button-container
+      margin-top: 3em
+      width: 100%
+      height: 100%
+      display: flex
+      position: relative
+      .icon-container
+        width: 100% 
+        .fa
+          color: white
+          text-align: center
+          font-size: 40px
+          cursor: pointer
+      .site-container
+        width: 100%     
+        button
+          background-color: #1B9CFC
+          padding: 10px
+          text-align: center
+          font-size: 18px
+          border: none
+          border-radius: 10px
+          cursor: pointer
+          outline-style: none
+        button:hover
+          background-color: #25CCF7
+
+
+.spacer
+  width: 98%
+  padding-top: 20px
+  margin: auto
+  border-bottom: 1px solid white
+
+.about-me-heading
+  margin-
+
+
+.about-me-container 
+  width: 98%
+  margin: auto
+  p
+    color: white 
+
+.skills
+  margin-top: 45px
+
+.skills-container 
+  width: 100%
+  margin: auto
+  display: flex
+  h6
+    margin-left: auto
+    margin-right: auto
+    padding: 10px 20px 10px 20px
+    border: 1px solid white
+    background-color: white
+    transition: border-radius 1s ease
+  h6:hover
+    border-radius: 20px
+    
+
+
+
+@media only screen and (max-device-width: 812px)
+  .container
+    display: grid
+    grid-template-columns: 1fr
+
+  .skills-container 
+    width: 100%
+    margin: auto
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
