@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap') 
+
+// Presets
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+  margin: 0
+  padding: 0
+  color: white
+
+p 
+  margin: 0
+  color: white
+
+
+  
+body
+  background-color: #1e272e
+  font-family: 'Montserrat', sans-serif
+  margin: 0
+  padding: 0
+
+#container 
+  display: grid
+  grid-template-columns: 1fr 1fr
+  width: 99%
+  height: 100vh
+  margin: auto
+  .sub-container
+    width: 100%
+    height: 100%
+    position: relative
+
+#title-container
+  width: 50%
+  height: 5em
+  positon: absolute
+  margin-top: 100px
+  margin-left: 40px
+  animation-duration: 1s
+  h1
+    font-size: 40px
+  p 
+    font-size: 20px
+    margin-top: 10px
+    margin-bottom: 25px
+  a
+    text-decoration: none
+    color: white
+    border: 1px solid white
+    padding: 10px 25px 10px 25px
+    transition: .3s ease
+  .resume
+    margin-left: 15px
+  a:hover
+    background-color: white
+    color: black
+    
+
+#about-container 
+  width: 35%
+  height: 6em 
+  position: absolute
+  margin-top: 200px 
+  margin-left: 40px
+  animation-duration: 2s
+  .text-container
+    margin-top: 10px
+    width: 100%
+    border-left: 1px solid white
+    padding-left: 10px
+    p
+      font-size: 18px
+  
+#skills-container
+  width: 35%
+  height: 6em
+  position: absolute
+  margin-top: 400px
+  margin-left: 40px
+  animation-duration: 3s
+  .skills-text
+    width: 100%
+    display: grid 
+    grid-template-columns: 1fr 1fr
+    border-left: 1px solid white
+    padding-left: 10px
+    margin-top: 10px
+
+    
+.sub-container
+  position: relative
+  width: 100%
+  height: 100%
+  #project-title-container
+    width: 35%
+    position: absolute
+    margin-top: 20px
+
+
+.projects-container
+  width: 100%
+  height: 90%
+  position: absolute
+  display: grid
+  grid-template-rows: 1fr 1fr 1fr
+  grid-gap: 8px
+  margin-top: 7%
+  .project
+    position: relative
+    width: 100%
+    height: 100%
+    img
+      width: 80% 
+      height: 13em
+      object-fit: cover 
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+      opacity: 0.6
+      transition: .2s ease
+    img:hover
+      box-shadow: none
+      opacity: 1
+
+  
+
+
+  
+
+
