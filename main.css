@@ -39,7 +39,7 @@ body {
   width: 50%;
   height: 5em;
   positon: absolute;
-  margin-top: 100px;
+  margin-top: 15%;
   margin-left: 40px;
   animation-duration: 1s;
 }
@@ -70,7 +70,7 @@ body {
   width: 35%;
   height: 6em;
   position: absolute;
-  margin-top: 200px;
+  margin-top: 13%;
   margin-left: 40px;
   animation-duration: 2s;
 }
@@ -88,7 +88,7 @@ body {
   width: 35%;
   height: 6em;
   position: absolute;
-  margin-top: 400px;
+  margin-top: 27%;
   margin-left: 40px;
   animation-duration: 3s;
 }
