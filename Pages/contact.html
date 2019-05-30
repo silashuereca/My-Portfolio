@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="/animate.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <div id="back-container">
+    <a href="../index.html"><p>&#8592 back</p></a>
+  </div>
+<div id="contact-container">
+  <div class="contact-heading animated fadeInDown">
+    <h1>Contact Me</h1>
+    <p>Have any questions? I would love to hear from you. Send me an email I'll get back to you as soon as possible!</p>
+  </div>
+  <form name="contactform" method="post" action="send_form_email.php">
+        <div class="label-container">
+        <label>Name*</label>
+        </div>
+        <div class="input-form-container">
+        <input type="name"  name="first_name" required>
+        </div>
+
+        <div class="label-container email">
+        <label>Email*</label>
+        </div>
+        <div class="input-form-container">
+        <input type="email" name="email" required>
+        </div>
+
+        <div class="label-container message">
+        <label>Message*</label>
+        </div>
+        <div class="input-form-container">
+          <textarea rows="5" cols="50">
+
+          </textarea>
+          <div id="form-button-container">
+          <input class="submit" type='submit' value="Sumbit">
+          </div>
+        </div>
+
+
+
+
+
+  </form>
+</div>
+
+</body>
+</html>
