@@ -35,7 +35,7 @@ if(isset($_POST['email'])) {
  
     $first_name = $_POST['first_name']; // required
     $email_from = $_POST['email']; // required
- 
+    $comments = $_POST['comments']; // not required
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
  
