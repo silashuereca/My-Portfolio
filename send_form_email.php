@@ -80,6 +80,7 @@ $headers = 'From: '.$email_from."\r\n".
 <!-- include your own success html here -->
  
 Thank you for contacting me. I will get in touch with you as soon as possible.
+
  
 <?php
  
