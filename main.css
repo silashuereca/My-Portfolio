@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+body {
+    background-color: #353b48;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#main-container {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Navigation section */
+
+.nav-container {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 25px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.logo-border {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 4px solid black;
+    z-index: 3;
+    transition: all 0.5s ease;
+}
+
+.logo-border:hover {
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.initials {
+    position: absolute;
+    top: 35px;
+    left: 12px;
+}
+
+.nav-links-container {
+    position: absolute;
+    right: 0px;
+    top: 35px;
+}
+
+.home-link {
+    margin-right: 20px;
+}
+
+.nav-links {
+    font-size: 16px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.nav-links:hover {
+    border-bottom: 2px solid #fbc531;
+}
+
+/* Intro text and where developer lives */
+
+.intro-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #fbc531;
+}
+
+.text-container {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.text-container p {
+    font-size: 30px;
+}
