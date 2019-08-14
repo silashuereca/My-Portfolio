@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="main.css" />
 		<title>Silas Huereca</title>
 	</head>
-	<body>
+	<body onload="typeWriter()">
 		<div id="main-container">
 			<nav class="nav-container">
 				<div class="logo-border"></div>
@@ -17,12 +17,14 @@
 					<a class="nav-links">Projects</a>
 				</div>
 			</nav>
-			<!-- Intro text section -->
+			<!-- Intro text section type effect -->
 			<div class="intro-text-container">
 				<div class="text-container">
-					<p>Hello, my name is Silas. I'm a Front End Developer living in Oklahoma City, OK.</p>
+					<p id="introText"></p>
 				</div>
 			</div>
 		</div>
+
+		<script src="main.js"></script>
 	</body>
 </html>
