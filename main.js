@@ -10,3 +10,19 @@ function typeWriter() {
 		setTimeout(typeWriter, speed);
 	}
 }
+
+let carousel = document.querySelector('.carousel');
+let cellCount = 8;
+let selectedIndex = 0;
+
+function rotateCarousel() {
+	let angle = (selectedIndex / cellCount) * -360;
+	carousel.style.transform = 'translateZ(-288px) rotateY(' + angle + 'deg)';
+}
+
+function setTime() {
+	selectedIndex++;
+	rotateCarousel();
+}
+
+setInterval(setTime, 3000);
