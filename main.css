@@ -41,7 +41,7 @@ p {
     left: 0px;
     width: 20px;
     height: 20px;
-    padding: 10px;
+    padding: 15px;
 }
 
 .logo-border {
@@ -50,7 +50,7 @@ p {
     left: 0px;
     width: 20px;
     height: 20px;
-    padding: 10px;
+    padding: 15px;
     border: 4px solid #2c3e50;
     z-index: 3;
     transition: all 0.7s ease;
@@ -63,8 +63,8 @@ p {
 
 .initials {
     position: absolute;
-    top: 35px;
-    left: 12px;
+    top: 40px;
+    left: 17px;
 }
 
 .nav-links-container {
@@ -78,9 +78,11 @@ p {
 }
 
 .nav-links {
-    font-size: 16px;
+    font-size: 20px;
     padding-bottom: 3px;
     cursor: pointer;
+    color: #2c3e50;
+    text-decoration: none;
 }
 
 .nav-links:hover {
@@ -124,6 +126,7 @@ p {
     color: #fbc531;
     margin-bottom: 10px;
     font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .sub-heading-margin {
