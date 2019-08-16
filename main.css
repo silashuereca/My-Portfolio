@@ -3,7 +3,7 @@
 body {
     background-color: #353b48;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    color: #2c3e50;
 }
 
 
@@ -21,7 +21,7 @@ p {
 #main-container {
     background-color: white;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 /* Navigation section */
@@ -58,7 +58,7 @@ p {
 }
 
 .logo-border:hover {
-    transform: rotate(180deg);
+    transform: rotate(90deg);
     cursor: pointer;
 }
 
@@ -91,7 +91,6 @@ p {
 /* Intro text and where developer lives */
 
 .intro-text-container {
-    text-align: center;
     width: 90%;
     height: 100px;
     margin: auto;
@@ -99,11 +98,65 @@ p {
 }
 
 .text-container {
-    width: 700px;
+    width: 800px;
     margin: auto;
     text-align: center;
 }
 
 .text-container p {
     font-size: 30px;
+}
+
+/* The 3D wheel effect styles is in the 3Deffect.css file */
+
+/* About me section */
+
+.about-container {
+    width: 800px;
+    margin: auto;
+    margin-top: 75px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph {
+    margin-top: 30px;
+}
+
+/* Contact me section */
+
+.contact-me-container {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.contact-me-container h2 {
+    margin-top: 75px;
+}
+
+.contact-me {
+    margin-top: 40px;
+    padding: 17px 70px;
+    background-color: white;
+    border: 1px solid #fbc531;
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+
+.contact-me:hover {
+    padding: 20px 75px;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 175px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
