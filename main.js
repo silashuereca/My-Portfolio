@@ -11,6 +11,7 @@ function typeWriter() {
 	}
 }
 
+// Putting 3D effect in motion
 let carousel = document.querySelector('.carousel');
 let cellCount = 8;
 let selectedIndex = 0;
