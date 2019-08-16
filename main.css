@@ -115,11 +115,16 @@ p {
     width: 800px;
     margin: auto;
     margin-top: 75px;
+}
+
+.heading {
     font-family: 'Montserrat', sans-serif;
 }
 
 .paragraph {
+    font-size: 17px;
     margin-top: 30px;
+    line-height: 30px;
 }
 
 /* Contact me section */
@@ -142,11 +147,15 @@ p {
     padding: 17px 70px;
     background-color: white;
     border: 1px solid #fbc531;
-    border-radius: 4px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-style: italic;
+    cursor: pointer;
     transition: all .3s ease;
 }
 
 .contact-me:hover {
+    font-size: 16px;
     padding: 20px 75px;
 }
 
