@@ -164,6 +164,7 @@ p {
     font-style: italic;
     cursor: pointer;
     transition: all .3s ease;
+    outline: none;
 }
 
 .contact-me:hover {
@@ -180,4 +181,19 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+/* This is the html project's page styles */
+
+.intro-projects-container {
+    width: 100%;
+    padding-top: 50px;
+    height: 150px;
+    border-bottom: 1px solid lightgray;
+}
+
+.intro-projects {
+    text-align: left;
 }
