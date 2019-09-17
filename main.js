@@ -1,6 +1,6 @@
 // Creating type effect
 let i = 0;
-let words = "Hello, my name is Silas. I'm a Front End Developer living in Oklahoma City, OK.";
+let words = "Hello, my name is Silas Huereca. I'm a Front End Developer living in Oklahoma City, OK.";
 let speed = 40;
 
 function typeWriter() {
