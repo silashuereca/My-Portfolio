@@ -107,7 +107,13 @@ p {
 	font-size: 30px;
 }
 
-/* The 3D wheel effect styles is in the 3Deffect.css file */
+/* model container */
+#model-container {
+	width: 75%;
+	height: 300px;
+	margin: auto;
+	background-color: #fbc531;
+}
 
 /* About me section */
 
