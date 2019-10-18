@@ -281,12 +281,6 @@ footer {
 	transition: 0.4s ease;
 }
 
-.card img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
 .card-link-container {
 	display: flex;
 	justify-content: center;
@@ -306,8 +300,13 @@ footer {
 	font-size: 15px;
 	font-style: italic;
 	color: white;
-	visibility: hidden;
+	display: none;
 	transition: 0.2s ease;
+}
+
+.project-thumbnail {
+	font-family: sans-serif;
+	color: hsl(322, 100%, 66%);
 }
 
 .card:hover .card-link-container {
@@ -316,7 +315,11 @@ footer {
 }
 
 .card:hover .project-btn {
-	visibility: visible;
+	display: block;
+}
+
+.card:hover .project-thumbnail {
+	display: none;
 }
 
 .project-btn:hover {
@@ -337,6 +340,13 @@ footer {
 .spacer {
 	margin-top: 75px;
 	border-bottom: 1px solid lightgray;
+}
+
+@media only screen and (min-width: 1600px) {
+	#sub-main-container {
+		width: 70%;
+		margin: auto;
+	}
 }
 
 @media only screen and (max-width: 950px) {
@@ -401,7 +411,11 @@ footer {
 	}
 
 	.project-btn {
-		visibility: visible;
+		display: block;
+	}
+
+	.project-thumbnail {
+		display: none;
 	}
 
 	.spacer {
