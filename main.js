@@ -10,3 +10,17 @@ function typeWriter() {
 		setTimeout(typeWriter, speed);
 	}
 }
+
+//animations
+
+//top row
+TweenMax.to('.html', 1, { marginLeft: 0 });
+TweenMax.to('.css', 2, { marginLeft: 0 });
+TweenMax.to('.sass', 3, { marginLeft: 0 });
+TweenMax.to('.javascript', 4, { marginLeft: 0 });
+
+//bottom row
+TweenMax.to('.jquery', 1, { marginLeft: 0 });
+TweenMax.to('.react', 2, { marginLeft: 0 });
+TweenMax.to('.gsap', 3, { marginLeft: 0 });
+TweenMax.to('.git', 4, { marginLeft: 0 });

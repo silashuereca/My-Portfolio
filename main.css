@@ -107,14 +107,71 @@ p {
 	font-size: 30px;
 }
 
-/* model container */
-#model-container {
-	width: 75%;
-	height: 300px;
+/* model container holding all skill sets */
+.main-skills-container {
+	/* position: relative; */
 	margin: auto;
+	width: 100%;
+	height: 350px;
 	background-color: #fbc531;
 }
 
+.skills-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.skills {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.html {
+	margin-left: -375px;
+	background-color: #e74c3c;
+}
+
+.css {
+	margin-left: -750px;
+	background-color: #3498db;
+}
+
+.sass {
+	margin-left: -1080px;
+	background-color: #e84393;
+}
+
+.javascript {
+	background-color: #fbc531;
+	margin-left: -1450px;
+}
+
+.jquery {
+	margin-left: -475px;
+	background-color: #2980b9;
+}
+
+.react {
+	margin-left: -750px;
+	background-color: #74b9ff;
+}
+
+.gsap {
+	margin-left: -1080px;
+	background-color: #2ecc71;
+}
+
+.git {
+	margin-left: -1450px;
+	background-color: #eb4d4b;
+}
 /* About me section */
 
 .about-container {
@@ -282,6 +339,12 @@ footer {
 	border-bottom: 1px solid lightgray;
 }
 
+@media only screen and (max-width: 950px) {
+	.main-skills-container {
+		margin-top: 60px;
+	}
+}
+
 @media only screen and (max-width: 700px) {
 	/* Home page */
 
@@ -296,6 +359,16 @@ footer {
 
 	.text-container {
 		width: 100%;
+	}
+
+	/* siills container */
+	.main-skills-container {
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.skills-container {
+		grid-template-columns: 1fr 1fr;
 	}
 
 	/* About me section */
@@ -333,5 +406,15 @@ footer {
 
 	.spacer {
 		margin-top: 45px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.intro-text-container {
+		margin-top: 25px;
+	}
+
+	.main-skills-container {
+		margin-top: 85px;
 	}
 }
