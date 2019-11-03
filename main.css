@@ -339,6 +339,13 @@ footer {
 	padding: 20px 75px;
 }
 
+.project-skills {
+	padding: 5px 5px;
+	border-radius: 5px;
+	color: #fbc531;
+	border: 1px solid #2c3e50;
+}
+
 .project-discription {
 	margin-top: 20px;
 	color: #fbc531;
