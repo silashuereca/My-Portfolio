@@ -48,6 +48,9 @@ p {
 }
 
 .logo-border {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: absolute;
 	top: 20px;
 	left: 0px;
@@ -62,12 +65,6 @@ p {
 .logo-border:hover {
 	transform: rotate(90deg);
 	cursor: pointer;
-}
-
-.initials {
-	position: absolute;
-	top: 40px;
-	left: 17px;
 }
 
 .nav-links-container {
