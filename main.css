@@ -117,7 +117,6 @@ p {
 	margin: auto;
 	width: 100%;
 	height: 350px;
-	background-color: #fbc531;
 	margin-top: 50px;
 }
 
@@ -170,12 +169,17 @@ p {
 
 .gsap {
 	margin-left: -1080px;
-	background-color: #2ecc71;
+	background-color: #4cd137
 }
 
 .git {
 	margin-left: -1450px;
 	background-color: #eb4d4b;
+}
+
+.vue {
+	margin-left: -1450px;
+	background-color: #2ecc71;
 }
 /* About me section */
 
