@@ -221,6 +221,10 @@ p {
 	text-align: center;
 }
 
+.margin-top {
+	margin-top: 15px;
+}
+
 /* Contact me section */
 
 .contact-me-container {
@@ -329,6 +333,7 @@ footer {
 	color: white;
 	display: none;
 	transition: 0.2s ease;
+	text-align: center;
 }
 
 .project-thumbnail {
@@ -350,8 +355,8 @@ footer {
 }
 
 .project-btn:hover {
-	font-size: 16px;
-	padding: 20px 75px;
+	background: #fbc531;
+	color: black;
 }
 
 .project-skills {
@@ -447,6 +452,8 @@ footer {
 
 	.project-btn {
 		display: block;
+		background-color: #fbc531;
+		color: black;
 	}
 
 	.project-thumbnail {
