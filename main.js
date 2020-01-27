@@ -26,4 +26,5 @@ TweenMax.to('.gsap', 3, { marginLeft: 0 });
 TweenMax.to('.git', 4, { marginLeft: 0 });
 
 // third row
-TweenMax.to('.vue', 2, { marginLeft: 0 });
+TweenMax.to('.vue', 1, { marginLeft: 0 });
+TweenMax.to('.bootstrap', 2, { marginLeft: 0 });

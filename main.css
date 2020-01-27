@@ -178,6 +178,12 @@ p {
 	margin-left: -1450px;
 	background-color: #2ecc71;
 }
+
+.bootstrap {
+	margin-left: -1450px;
+	background-color: #5f27cd;
+	color: white;
+}
 /* About me section */
 
 .about-container {
