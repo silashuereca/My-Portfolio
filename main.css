@@ -108,6 +108,8 @@ p {
 	font-size: 30px;
 }
 
+/* developer word *
+
 /* model container holding all skill sets */
 .main-skills-container {
 	/* position: relative; */
@@ -119,7 +121,7 @@ p {
 
 .skills-container {
 	position: relative;
-	width: 100%;
+	width: 90%;
 	height: 100%;
 	margin: auto;
 	display: grid;
@@ -135,52 +137,52 @@ p {
 }
 
 .html {
-	margin-left: -375px;
+	margin-top: -20px;
 	background-color: #e74c3c;
 }
 
 .css {
-	margin-left: -750px;
+	margin-top: 20px;
 	background-color: #3498db;
 }
 
 .sass {
-	margin-left: -1080px;
+	margin-left: -20px;
 	background-color: #e84393;
 }
 
 .javascript {
+	margin-top: -30px;
 	background-color: #fbc531;
-	margin-left: -1450px;
 }
 
 .jquery {
-	margin-left: -475px;
+	margin-left: -20px;
 	background-color: #2980b9;
 }
 
 .react {
-	margin-left: -750px;
+	width: 90%;
 	background-color: #74b9ff;
 }
 
 .gsap {
-	margin-left: -1080px;
+	margin-top: 20px;
 	background-color: #4cd137
 }
 
 .git {
-	margin-left: -1450px;
+	width: 50%;
 	background-color: #eb4d4b;
 }
 
 .vue {
-	margin-left: -1450px;
+	height: 40%;
 	background-color: #2ecc71;
 }
 
 .bootstrap {
-	margin-left: -1450px;
+	margin-left: 20px;
 	background-color: #5f27cd;
 	color: white;
 }
@@ -420,6 +422,7 @@ footer {
 	}
 
 	.skills-container {
+		width: 100%;
 		grid-template-columns: 1fr 1fr;
 	}
 
